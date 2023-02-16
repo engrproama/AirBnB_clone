@@ -169,5 +169,5 @@ The recognizable commands by the interpreter are the following:
 
 ## Authors
 
-Precious Okwukwe Amaechi | Email: [engrp](mailto:poamaechi@outlook.com) 
+Precious Okwukwe Amaechi | Email: [Engr P](mailto:poamaechi@outlook.com) 
 
