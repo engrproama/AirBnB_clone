@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module for TestHBNBCommand class."""
 
+import json
 from console import HBNBCommand
 from models.engine.file_storage import FileStorage
 import unittest
@@ -679,7 +680,6 @@ EOF  all  count  create  destroy  help  quit  show  update
         s = re.sub(r"(datetime\.datetime\([^)]*\))", "'\\1'", s)
         d = json.loads(s.replace("'", '"'))
         return d
-
     def classes(self):
         """Returns a dictionary of valid classes and their references."""
         from models.base_model import BaseModel
